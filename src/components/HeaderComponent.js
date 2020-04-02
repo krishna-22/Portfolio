@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import img1 from './imgs/img1.jpeg';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
     Button } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
@@ -60,7 +61,7 @@ class Header extends Component {
                         <div class='row align-items-center'>
                             <div className="col-12 offset-2 col-sm-6 offset-sm-0">
                                 <h5>SOFTWARE ENGINEER</h5>
-                                <img height='150px' width='150px' class="rounded-circle" src="assets/images/img1.jpeg"></img>
+                                <img height='150px' width='150px' class="rounded-circle" src={img1} alt="sorry"></img>
                             </div>
                             <div className="col-12 col-sm-6" >
                                 <p>Experienced and productive Full stack Data Scientist with significant skills that contribute to development of an organisation. My goal is to team up with like minded people to come up with products that put significant impact towards future in science and technology</p>

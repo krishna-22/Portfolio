@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import awsc from './imgs/awsc.jpeg';
+import awsm from './imgs/awsm.jpeg';
+import dl from './imgs/dl.jpg';
+import ibm from './imgs/ibm.jpeg';
+import reinf from './imgs/reinf.jpeg';
+import stanford from './imgs/stanford.jpeg';
+import text from './imgs/text.jpeg';
+import cal from './imgs/cal.jpg';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import {Card,Accordion,Button} from 'react-bootstrap';
 
@@ -32,7 +40,7 @@ class Certificate extends Component
                             <Accordion.Collapse eventKey="0">
                             <Card.Body>
                                 <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/stanford.jpeg"></img></Card.Body>
+                                <img height="300px" width="100%" src={stanford}></img></Card.Body>
                              </Accordion.Collapse>
                          </Card>
                          <Card>
@@ -44,7 +52,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="1">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/reinf.jpeg"></img>
+                                <img height="300px" width="100%" src={reinf}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -57,7 +65,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="2">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/text.jpeg"></img>
+                                <img height="300px" width="100%" src={text}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -70,7 +78,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="3">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/awsm.jpeg"></img>
+                                <img height="300px" width="100%" src={awsm}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -83,7 +91,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="4">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/ibm.jpeg"></img>
+                                <img height="300px" width="100%" src={ibm}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -96,7 +104,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="5">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/dl.jpg"></img>
+                                <img height="300px" width="100%" src={dl}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -109,7 +117,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="6">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/cal.jpg"></img>
+                                <img height="300px" width="100%" src={cal}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>
@@ -122,7 +130,7 @@ class Certificate extends Component
                                     <Accordion.Collapse eventKey="7">
                                    <Card.Body>
                                    <h6>Verify At : <button outline><a href='https://www.coursera.org/account/accomplishments/verify/UTQRBE6FEQV8'>Click Me</a></button></h6><br/>
-                                <img height="300px" width="100%" src="assets/images/awsc.jpeg"></img>
+                                <img height="300px" width="100%" src={awsc}></img>
                                    </Card.Body>
                                    </Accordion.Collapse>
                          </Card>

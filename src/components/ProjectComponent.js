@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import b from './imgs/b.jpg'
+import w from './imgs/w.jpg'
+import e from './imgs/e.jpg'
+import m from './imgs/m.jpg'
 import { Breadcrumb, BreadcrumbItem,Modal,ModalBody,ModalHeader } from 'reactstrap';
 import {Card,CardImg,Button} from 'react-bootstrap';
 
@@ -68,8 +72,8 @@ class Project extends Component
                 </div>
                 <div className='row'>
                     <div className='col-12  col-md-6 '>
-                <Card style={{ width: '20rem' }} bg='info'>
-                 <Card.Img height='300px' width='300px' variant="top" src="assets/images/b.jpg" />
+                <Card style={{ width: '80%',height:'100%' }} bg='info'>
+                 <Card.Img height='300px' width='300px' variant="top" src={b} />
                     <Card.Body>
                            <Card.Title>Better Communication Tool</Card.Title>
                            <Card.Text>
@@ -80,8 +84,8 @@ class Project extends Component
                </Card>
                </div>
                <div className='col-12  col-md-6 '>
-               <Card style={{ width: '20rem' }} bg='secondary'>
-                 <Card.Img height='300px' width='300px' variant="top" src="assets/images/e.jpg" />
+               <Card style={{ width: '80%',height:'100%' }} bg='secondary'>
+                 <Card.Img height='300px' width='300px' variant="top" src={e} />
                     <Card.Body>
                            <Card.Title>Eye Disease Detection</Card.Title>
                             <Card.Text>
@@ -97,9 +101,9 @@ class Project extends Component
                
                <div className='row'>
                <div className='col-12 col-md-6'>
-               <Card style={{ width: '20rem' }} bg='danger'
+               <Card style={{ width: '80%',height:'100%' }} bg='danger'
                >
-                 <Card.Img height='300px' width='300px' variant="top" src="assets/images/m.jpg" />
+                 <Card.Img height='300px' width='300px' variant="top" src={m}/>
                     <Card.Body>
                            <Card.Title>Machine Translation</Card.Title>
                             <Card.Text>
@@ -110,8 +114,8 @@ class Project extends Component
                </Card>
                </div>
                <div className='col-12 col-md-6 '>
-               <Card style={{ width: '20rem' }} bg='success'>
-                 <Card.Img height='300px' width='300px' variant="top" src="assets/images/w.jpg" />
+               <Card style={{ width: '80%',height:'100%'}} bg='success'>
+                 <Card.Img height='300px' width='300px' variant="top" src={w} />
                     <Card.Body>
                            <Card.Title>Urban Waste Management</Card.Title>
                             <Card.Text>
@@ -129,7 +133,7 @@ class Project extends Component
                     <ModalBody >
                     
                <Card style={{ width: '25rem' }} bg='info'>
-               <Card.Img height='300px' width='300px' variant="top" src="assets/images/b.jpg" />
+               <Card.Img height='300px' width='300px' variant="top" src={b} />
                     <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
@@ -144,7 +148,7 @@ class Project extends Component
                     <ModalBody >
                     
                <Card style={{ width: '25rem' }} bg='secondary'>
-               <Card.Img height='300px' width='300px' variant="top" src="assets/images/e.jpg" />
+               <Card.Img height='300px' width='300px' variant="top" src={e} />
                     <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
@@ -159,7 +163,7 @@ class Project extends Component
                     <ModalBody >
                     
                <Card style={{ width: '25rem' }}bg='danger'>
-               <Card.Img height='300px' width='300px' variant="top" src="assets/images/m.jpg" />
+               <Card.Img height='300px' width='300px' variant="top" src={m} />
                     <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>
@@ -174,7 +178,7 @@ class Project extends Component
                     <ModalBody >
                     
                <Card style={{ width: '25rem' }} bg='success'>
-               <Card.Img height='300px' width='300px' variant="top" src="assets/images/w.jpg" />
+               <Card.Img height='300px' width='300px' variant="top" src={w} />
                     <Card.Body>
                             <Card.Title></Card.Title>
                             <Card.Text>

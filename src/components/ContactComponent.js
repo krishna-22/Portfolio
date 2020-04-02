@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import loc from './imgs/loc.png'
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 
 
@@ -41,7 +42,7 @@ class Contact extends Component {
                 </div>
                 <div className="col-12 col-sm-6 offset-sm-1">
                     <h5>Map of Location</h5>
-                    <img heiht='300px' width='100%' src="assets/images/loc.png"></img>
+                    <img heiht='300px' width='100%' src={loc}></img>
                  </div>
                 <div className="col-12 col-sm-11 offset-sm-1">
                     <div className="btn-group" role="group">
