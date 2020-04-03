@@ -129,6 +129,7 @@ class Project extends Component
             </div>
 
             <Modal isOpen={this.state.isModal1Open} toggle={this.toggle1Modal}>
+          
               <ModalHeader  toggle={this.toggle1Modal}>Better Communication Tool</ModalHeader>
                     <ModalBody >
                     
@@ -142,7 +143,9 @@ class Project extends Component
                  </Card.Body>
                </Card>
                     </ModalBody>
+                   
                 </Modal>
+              
                 <Modal isOpen={this.state.isModal2Open} toggle={this.toggle2Modal}>
               <ModalHeader  toggle={this.toggle2Modal}>Eye Disease Detection</ModalHeader>
                     <ModalBody >

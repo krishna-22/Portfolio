@@ -21,6 +21,25 @@ class About extends Component
                 </Breadcrumb>
                 </div>
                 <div className='row'>
+                    <div className='col-12'>
+                    <Card style={{ width:'100%'}} bg='info'>
+                    <Card.Header>Professional</Card.Header>
+                <Card.Body>
+             <blockquote className="blockquote mb-0">
+             <p>
+              {' '}
+              Saikiran is talented and much passionated towards his Profession. His commitment and indulgence in projects can ensure client satisfaction.
+              {' '}
+                 </p>
+                 <footer className="blockquote-footer" style={{color:"red"}}>
+                 Sudha <cite title="Source Title">(Professor-CSE)</cite>
+                 </footer>
+            </blockquote>
+              </Card.Body>
+</Card>
+                    </div>
+                </div>
+                <div className='row'>
                 <div className='col-12'>
                 <Tabs defaultActiveKey="Skills" id="uncontrolled-tab-example">
                      <Tab eventKey="Skills" title="Skills">

@@ -26,12 +26,12 @@ class Header extends Component {
     render() {
         return(
             <div>
-                <Navbar dark expand="md">
+                <Navbar dark expand="md" fixed='top'>
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                         <NavbarBrand className="mr-auto" href="/">SAIKIRAN</NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar   >
                 
                             <NavItem>
                                 <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
