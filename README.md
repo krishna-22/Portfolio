@@ -1,3 +1,21 @@
+Type following commands at main folder:
+1. install nodejs
+2. npm install -g create-react-app
+3.npx create-react-app portfolio
+4.npm install bootstrap
+5.npm install reactstrap react-popper
+6. npm install font-awesome
+7.npm install bootstrap-social
+8.npm install react-router-dom
+9.npm install react-redux-form
+10.npm install react-bootstrap
+11.npminstall cross-fetch
+12.npm install redux
+13.npx install react-redux
+14.cd sai
+15.npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
